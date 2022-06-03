@@ -66,22 +66,31 @@ section {
   padding-bottom: 10vh;
 }
 
+section > p {
+  padding-bottom: 2em;
+}
+
 section.normal {
   background-color: white;
   color: black;
 }
+
+section.imagem {
+  color: white;
+  
+  box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.571);
+
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 section.imagem > p {
   background-color: rgba(0, 0, 0, 0.47);
 
   display: inline-block;
   padding: 10px;
-}
-section.imagem {
-  color: white;
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 section.imagem#img001 {
